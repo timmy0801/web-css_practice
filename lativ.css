@@ -1,0 +1,284 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+    font-size: 12px;
+    font-family: "Verdana","新細明體",Geneva,Tahoma,sans-serif;
+    color: #706e6c;
+    margin: 0 auto;
+    width: 1280px;
+}
+a{
+    color: #4d3126;
+}
+
+.header{
+    margin-top:48px;
+}
+img{
+    float: left;
+}
+.category{
+    text-align: center;
+    height: 28px;
+    border-bottom: 0 #e6e6e6 solid;
+    float: left;
+    width: 750px;
+    margin-top:20px;
+    margin-left: 45px;
+}
+.category li a{
+    height: 28px;
+    width: 132px;
+    float: left;
+    background: transparent url(https://s1.lativ.com.tw/images/nav-menus.gif?18721) no-repeat top left;
+}
+li.p1 a{
+    background-position: 0 0;
+}
+li.p2 a{
+    background-position: -132px -56px;
+}
+li.p3 a{
+    background-position: -264px 0;
+}
+li.p4 a{
+    background-position: -396px 0;
+}
+li.p5 a{
+    background-position: -528px 0;
+}
+.search{
+    width: 250px;
+    float: right;
+   
+    margin-top:-20px;
+}
+.text{
+    text-align: left;
+    color: #666;
+    border: 1px #ccc solid;
+    border-right: 0cm; 
+    float: right;
+    width: 183px;
+    height: 25.5px;
+    line-height: 2.2;
+}
+.submit{
+    width: 40px;
+    height: 29.3px;
+    float: right;
+    padding-right: 7px;
+    border: none;
+    border-right: 1px #ccc solid;
+    border-top: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    background: transparent url(https://s1.lativ.com.tw/images/btn_search.gif) no-repeat center center;
+}
+.subscribe{
+   
+    height: 28px;
+    margin-top: 14px;
+    float: right;
+   
+}
+.subscribe li{
+    float: left;
+}
+.s1{
+    color: #875123;
+    float: left;
+    margin-left: 0;
+    padding-left: 10px;
+}
+.s2{
+    padding-right:14px;
+}
+.login{
+    color: #706e6c;
+    border-left: 1px dotted #d0d0d0;
+    height: 12px;
+    text-align: center;
+    padding-right:14px;
+    padding-left: 14px;
+}
+.cart{
+    color: #706e6c;
+    border-left: 1px dotted #d0d0d0;
+    height: 12px;
+    text-align: center;
+    background-image: url(https://s1.lativ.com.tw/images/ShoppingCart.gif);
+    background-position: 0 -3px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+.clear{
+    clear: both;
+}
+.content{
+   
+    margin-top:10px;
+    
+}
+.item h2{
+    color: #555;
+    font-weight: bolder;
+    background: transparent url(https://s1.lativ.com.tw/images/sidenav_h2icon.gif) no-repeat 0 8px;
+    padding-left: 14px;
+    padding-top: 4px;
+}
+.h2{
+    font-size: 100%;
+}
+.sale{
+    float: left;
+}
+.sale li{
+    padding :10px;
+}
+.sale a{
+    color: #83521e;
+    margin-bottom: 7px;
+}
+.c1{
+    border-bottom: 1px #f0f0f0 solid;
+    width:145px;
+  
+}
+.c2 li{
+    background: transparent url(https://s1.lativ.com.tw/images/sidenav_list_icon.gif) no-repeat 0 12px;
+    padding-bottom: 5px;
+    
+}
+.c2{
+    margin-top:-8px;
+}
+.c3 li {
+    background: transparent url(https://s1.lativ.com.tw/images/sidenav_list_icon.gif) no-repeat 0 12px;
+    padding-bottom: 5px;
+    
+}
+.c3 li a{
+    color: #4d494a;
+}
+.picture{
+    width: 1100px;
+    float: left;
+    margin-left: 15px;
+}
+.display li{
+    text-align: center;
+    float: left;
+    width: 220px;
+    height: 375px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.display img{
+    width: 220px;
+    height: 220px;
+    padding-top:10px;
+}
+.w1{
+    padding-top: 15px;
+    line-height: 1.5;
+   
+}
+.w2{
+    padding-top: 10px;
+}
+.size{
+    width: 155px;
+    margin-left: 27px;
+    margin-top: 15px;
+    text-align: center;
+}
+.size a{
+    width: 20px;
+    background: #eee;
+    border: 1px solid #eee;
+    color: #575757;
+    font-family: Arial;
+    font-size: 12px;
+    margin-left: 5px;
+    float: left;
+    padding: 1.8px;
+    margin-top: 20px;
+}
+.footer{
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    
+    
+}
+.footer a{
+    color: #575757;
+}
+.buttom li{
+    float: left;
+}
+.q1{
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid #706e6c;
+}
+.q2{
+    margin-left: 10px;
+    
+}
+.q3{
+    padding-right: 10px;
+    border-right: 1px solid #706e6c;
+}
+.haha li{
+    float: right;
+}
